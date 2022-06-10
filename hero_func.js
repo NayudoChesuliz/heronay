@@ -47,7 +47,7 @@ function Next(){//文本切換
         rpgs(cname[num],dtext[num],iimage[num]);
     }num++;
   if (filename=="stage1"&&num==25)
-        window.location.href="hero_game2.html";
+        window.location.href="https://nayudochesuliz.github.io/heronay/hero_game2.html";
     if (filename=="stage2"&&num==14)
-        window.location.href="hero_game1.html";
+        window.location.href="https://nayudochesuliz.github.io/heronay/hero_game1.html";
 }
