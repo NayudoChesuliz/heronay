@@ -50,4 +50,6 @@ function Next(){//文本切換
         window.location.href="https://nayudochesuliz.github.io/heronay/hero_game2.html";
     if (filename=="stage2"&&num==14)
         window.location.href="https://nayudochesuliz.github.io/heronay/hero_game1.html";
-}
+    if (filename=="stage3"&&num==14)
+        window.location.href="https://nayudochesuliz.github.io/heronay/hero_game3.html";
+}    
