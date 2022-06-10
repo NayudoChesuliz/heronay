@@ -4,27 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>第三關</title>
+    <title>彰化玄女唯一指定勇者</title>
     <link rel="stylesheet" type="text/css" href="hero_stage1.css">
 </head>
 <body>
-    <img src="empty.png" alt="nothingness" style="width:700px;height:500px;">
+    <img src="empty.png" alt="nothingness" style="width:700px;height:500px;" class="image" id="image" name="image">
     <table>
         <tr>
             <th><h4 class="name" id="name">彰化玄女唯一指定勇者</h4></th>
         </tr>
         <tr>
         <th><h2 class="dialogue" id="dialogue">趕快按下按鈕開始吧!!</h2></th>
-        <th><button onclick="Next()" style="width:95px;height:35px;font-size:20px;" class="next">NEXT ▶</button></th>
+        <th><button onclick="Next()" style="width:60px;height:30px;font-size:20px;" class="next">next</button></th>
         </tr>
    
     <script src="hero_func.js"></script>
     </table>   <!--table:表格,tr:橫行,th同行不同格子-->
  
-    <script>cname=[
-                
-                //"",
-                //"",
+    <script>
+    filename="stage3";
+    cname=[
+                "",
+                "",
  
                 ".",
                 "勇者",
@@ -38,14 +39,10 @@
                 "勇者",
                 "勇者",
                 "山羊王",
-                //"",
-                //"",
-                ".",
             ]
             dtext=[
-
-                /*"勝利還是屬於光明的。勇者戰勝巨大．弱爆了．章魚，朝著最終的魔王城前去。",
-                "他上了岸，站在魔王城下。",*/
+                "勝利還是屬於光明的。勇者戰勝巨大．弱爆了．章魚，朝著最終的魔王城前去。",
+                "他上了岸，站在魔王城下。",
  
                 "最終站_魔王城▶▷",
                 "出來吧！那個將咖哩與白飯混和的孽障首腦！停止你們粗俗而野蠻的舉止！",
@@ -59,14 +56,9 @@
                 "閉嘴吧你。",
                 "既然如此，我們今天就在這裡分出高下吧！輸的一方，將必須順從對方國家法條！",
                 "who 怕 who！愚蠢的人類，嚐嚐失敗者的滋味吧！",
-                /*"世界終於恢復平靜，在這歷史性的一刻，咖哩飯是否要拌的爭議，得到了結果。",
-                "咖哩飯不拌才是王道！其他邪門歪道注定都是失敗者！",*/
-                "The End.",
                
             ]
-		iimage=[
-                
-
+            iimage=[
                 "",
                 "castle",
                 "bsgoat",
@@ -78,12 +70,8 @@
                 "hero_okay",
                 "hero_anger",
                 "bsgoat",
-                "",
-                
-                
+                ""
             ]//這裡根據需要輸入圖片名稱,如果空則不要輸入
-    </script>
- 
     </script>
 </body>
 </html>
