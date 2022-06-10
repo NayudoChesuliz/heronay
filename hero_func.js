@@ -34,8 +34,10 @@ function rpgs(character,text,image){
     if(image==""||image==null)
         image="empty";
     document.getElementById("image").src=image+".png";
-    if (image=="octopus")
-        document.getElementById("image").style.width="1000px";
+    if (image=="hero_anger"||image=="hero_confuse"||image=="boatman"||image=="hero_okay"||image=="hero_shock"||image=="hero_pruod"||image=="hero_talk")
+        document.getElementById("image").style.width="352px";
+    else
+        document.getElementById("image").style.width="700px";
 }
 function Next(){//文本切換
     document.getElementById("name").style.opacity  = 0;
