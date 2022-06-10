@@ -92,5 +92,7 @@ function change1(){
 }function test(){
     if (a==1&&b==1&&c==1&&d==1){
         alert("你打敗了把咖哩拌著吃的山羊!!");
+         alert("世界終於恢復平靜，在這歷史性的一刻，咖哩飯是否要拌的爭議，得到了結果。\n咖哩飯不拌才是王道！其他邪門歪道注定都是失敗者！\nThe End.");
+        window.location.href="https://nayudochesuliz.github.io/heronay/";
     }
 }
