@@ -2,6 +2,7 @@ var character;
 var text;
 var num=0;//文本記數
 var namee, dialogue;
+var filename;
 var cname=[
 
     "octopus",
@@ -45,5 +46,8 @@ function Next(){//文本切換
     if (cname[num]!=null&&dtext[num]!=null){
         rpgs(cname[num],dtext[num],iimage[num]);
     }num++;
-  
+  if (filename=="stage1"&&num==25)
+        window.location.href="hero_game2.html";
+    if (filename=="stage2"&&num==14)
+        window.location.href="hero_game1.html";
 }
