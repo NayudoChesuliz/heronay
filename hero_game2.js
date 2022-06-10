@@ -12,6 +12,7 @@ function answer(){
         num++;
     }else if (ans=="Come on let's go and play."&&num==3){
         alert("雪人:啊!我輸了!根據雪人的法律我必須被放逐到火山裡!");
+        window.location.href="index_2.html";
     }else{
             alert("雪人:答錯了!!哈哈哈!!!\n*此輪遊戲將重新開始");
     }document.getElementById("ans").value="";
